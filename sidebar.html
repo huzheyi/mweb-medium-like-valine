@@ -37,6 +37,7 @@
             </div>
     {% /if %}
 
+
               <div id="site-categories" class="side-item ">
                 <div class="side-header">
                   <h2>Categories</h2>
@@ -45,10 +46,25 @@
 
       	<p class="cat-list">
         {% for p in categoriesTree %}
-            <a href="{{ p.url }}"><strong>{{ p.name }}</strong></a>
+            <a href="{{ p.url }}"><strong>{{ p.name }}&nbsp;({{ p.count }})</strong></a>
         {% /for %} 
         </p>
 
+                </div>
+              </div>
+
+
+              <div id="site-categories" class="side-item ">
+                <div class="side-header">
+                  <h2>Tags</h2>
+                </div>
+                <div class="side-content">
+
+        <p class="cat-list">
+        {% for p in allTags %}
+            <a href="{{ p.url }}"><strong>#{{ p.name }}&nbsp;({{ p.count }})</strong></a>
+        {% /for %} 
+        </p>
 
                 </div>
               </div>

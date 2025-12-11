@@ -5,6 +5,7 @@
 </script>
 <div class="row">
 	<div class="large-8 medium-8 columns">
+
 		<div class="markdown-body home-categories">
 		{% for p in posts %}
 			<div class="article">
@@ -36,8 +37,6 @@
           				  {% for cat in p.cats %}
           					    <span class="posted-in"><a href='{{ cat.url }}'>{{ cat.name }}</a></span>
           				  {% /for %} 
-                    
-
                   </div>
                   <div class="more-right right">
                   <span class="comments">
@@ -54,20 +53,6 @@
               </div><!-- article -->
         {% /for %}
               
-
-
-			<div class="row">
-			  <div class="large-6 columns">
-			  <p class="text-left" style="padding-top:25px;">
-			  {% if prevPageUrl.length %} <a href="{{ prevPageUrl }}">&laquo; Prev Page</a> {% /if %} 
-			  </p>
-			  </div>
-			  <div class="large-6 columns">
-			<p class="text-right" style="padding-top:25px;">
-			{% if nextPageUrl.length %} <a href="{{ nextPageUrl }}">&raquo; Next Page</a> {% /if %}
-			</p>
-			  </div>
-			</div>
 		</div>
 	</div><!-- large 8 -->
 

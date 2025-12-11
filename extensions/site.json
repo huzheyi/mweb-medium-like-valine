@@ -1,9 +1,9 @@
 [
    {
-      "title":"favicon path",
-      "variableName":"favicon_path",
+      "title":"global notice",
+      "variableName":"global_notice",
       "inputFieldHeight":22,
-      "exampleText":"your site favicon"
+      "exampleText":"240x240"
    },
    {
       "title":"logo path",
@@ -84,9 +84,27 @@
       "exampleText":"disqus shortname"
    },
    {
-    "title": "google analytics",
-    "variableName": "ga_code",
-    "inputFieldHeight": 100,
-    "exampleText": "Google Analytics tracking code"
+      "title":"valine",
+      "variableName":"valine",
+      "inputFieldHeight":22,
+      "exampleText":"是否启用valine评论，1-启用，不填-禁用（默认）"
+   },
+   {
+      "title":"valine_app_key",
+      "variableName":"valine_app_key",
+      "inputFieldHeight":22,
+      "exampleText":"Cyb4xg8zFaMsGb383PTyxh3t"
+   },
+   {
+      "title":"valine_app_id",
+      "variableName":"valine_app_id",
+      "inputFieldHeight":22,
+      "exampleText":"zkYpFd7wjlxRgQ6J3fVeo2QP-gzGzoHsa"
+   },
+   {
+      "title":"valine_server_url",
+      "variableName":"valine_server_url",
+      "inputFieldHeight":22,
+      "exampleText":"https://us.avoscloud.com"
    }
 ]

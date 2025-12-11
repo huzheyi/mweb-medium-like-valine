@@ -1,18 +1,17 @@
-# MWeb mweb-medium-like Theme
+# MWeb mweb-medium-like Theme with valine
 
-MWeb new site theme mweb-medium-like.  
-MWeb 新网站主题 mweb-medium-like。  
-[演示网站（Demo Site）](http://coderforart.com/)  
+MWeb 静态网站主题 mweb-medium-like 集成valine评论系统
+[演示网站（Demo Site）](https://blog.zheyi.hu/)  
 
 ## 安装 (Install)
 
 ```
 cd ~/Library/Containers/com.coderforart.MWeb/Data/Documents/themes/SiteThemes
-git clone https://github.com/oulvhai/mweb-medium-like.git
+git clone https://github.com/huzheyi/mweb-medium-like-valine.git
 ```
 
 ## 使用方法（Usage）
 
-<http://coderforart.com/mweb-medium-like-theme.html> （中文）
+<https://zh.mweb.im/themes> （中文）
 
 
